@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="tauram.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/fontawesome/css/all.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="tauram.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<header>
+    <div class="banner">
+        <div class="top-nav">
+            <div class="btn btn-block pull">
+                <nav>
+                    <br>
+                    <div class="col-xs-1"></div>
+                    <a class="btn text-dark btn-lg" href="index.html#intro">Home</a>
+                    <a class="btn text-dark btn-lg" href="tauram1.html#about">About Me</a>
+                    <a class="btn text-dark btn-lg" href="tauram2.html#portfolio">My Portfolio</a>
+                    <a class="btn text-dark btn-lg" href="tauram3.html#contact">Contact Me</a>
+                    <div class="col-xs-1"></div>
+                </nav>
+            </div>
+        </div>
+        <hr>
+    </div>
+</header>
+
+<body style="background-color: #FEF7FF">
+
+    <!-- contact form -->
+
+    <section>
+        <div style="width:1000px; height:100%">
+            <h2 class="display-2" style="text-align: center;">Contact Me</h2>
+            <div class="container3" style="align-content: center">
+                <div class="clearfix" id="button">
+                    <div class="row">
+                        <div class="col-xs-3"></div>
+                        <div class="col-xs-2">
+                            <a href="https://twitter.com/Dimpho_Ramodise"
+                                class="btn btn-block btn-lg btn-social-icon btn-twitter text-dark">
+                                <i class="fa fa-twitter"> Twitter</i>
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a href="https://www.instagram.com/dimpho_ramodise/?hl=en"
+                                class="btn btn-block btn-lg btn-instagram text-dark">
+                                <i class="fa fa-instagram"> Instagram</i>
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a href="https://www.linkedin.com/in/dimpho-ramodise-bb83b8180/"
+                                class="btn btn-block btn-lg btn-linkedin text-dark">
+                                <i class="fa fa-linkedin"> linkedin</i>
+                            </a>
+                        </div>
+                        <div class="col-xs-3"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div>
+                <!--form template modified from https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form -->
+                <form class="contact-form d-flex flex-column align-items-center"
+                    action="https://formspree.io/dimpho.ramodise@gmail.com" method="POST">
+                    <div class="messages">
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="firstname">First Name *</label>
+                                        <input id="firstname" type="text" name="name" class="form-control"
+                                            placeholder="Enter First Name" required="required"
+                                            data-error="Enter your First name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="lastname">Last Name *</label>
+                                        <input id="lastname" type="text" name="surname" class="form-control"
+                                            placeholder="Enter Last Name" required="required"
+                                            data-error="Enter your Last name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="email">Email *</label>
+                                        <input id="email" type="email" name="email" class="form-control"
+                                            placeholder="someone@example.com" required="required"
+                                            data-error="Enter a valid email address">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="message">Message *</label>
+                                        <textarea id="message" name="message" class="form-control"
+                                            placeholder="Enter a Message" rows="4" required="required"
+                                            data-error="Please, leave me a message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <p class="text-muted">
+                                        <strong>*</strong>These fields are required.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <div class="row">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-1">
+            <span>
+                <a href="https://twitter.com/Dimpho_Ramodise" class="btn btn-block btn-xs btn-social-icon btn-twitter">
+                    <i class="fa fa-twitter"> Twitter</i>
+                </a>
+            </span>
+        </div>
+        <div class="col-xs-1">
+
+            <span>
+                <a href="https://github.com/TauRamodise" class="btn btn-block btn-social-icon btn-xs btn-github">
+                    <i class="fa fa-github"> GitHub</i>
+                </a>
+            </span>
+        </div>
+        <div class="col-xs-1">
+            <span>
+                <a href="https://www.linkedin.com/in/dimpho-ramodise-bb83b8180/"
+                    class="btn btn-block btn-xs btn-social-icon btn-linkedin">
+                    <i class="fa fa-linkedin"> linkedin</i>
+                </a>
+            </span>
+        </div>
+        <div class="col-xs-1"></div>
+    </div>
+</footer>
+
+</html>

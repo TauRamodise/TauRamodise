@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: #403D3D;
+    font-size: 24px;
+   
+}
+
+header {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #BEA6A0;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FEF7FF; 
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    background-color: #FEF7FF;
+    font-size: 18px;
+}
+
+p{
+    font-size: 18px;
+}
+
+nav{
+    text-align: end;
+}
+
+.container3{
+    background-color: #E6C8C1; 
+ width: 100%;
+    
+}
+
+blockquote{
+    /* background-color: #E6C8C1; */
+    background-color: #E6C8C1;
+}
+
+.container0{
+    margin: 10px;
+    
+}
+img{
+    width: 350px;
+    height: 50%;
+}
+
+/* border color #806F6B */
+/*  dark brown #403736*/
+/* color break yellow/ golden #E6B327 */
+/* light color #FFDED6 */
